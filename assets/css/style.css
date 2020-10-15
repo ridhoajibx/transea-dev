@@ -8,11 +8,11 @@
     --main-light-color: #68A4C4;
 }
 
-.main-text-color{
+.main-text-color {
     color: var(--main-color) !important;
 }
 
-.main-text-light{
+.main-text-light {
     color: var(--main-light-color) !important;
 }
 
@@ -86,9 +86,15 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
+#header .logo img {
+    padding: 6px 0;
+    margin: 0;
+    max-height: 50px;
+}
+
 #header .logo h1 {
     font-family: 'Anton', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
     padding: 6px 0;
     line-height: 1;
@@ -98,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo .text-brand {
     font-family: 'Noto-serif';
-    font-size: 12px;
+    font-size: 10px;
     margin: 0;
     padding: 2px 0;
     line-height: 1;
@@ -114,17 +120,14 @@ h1, h2, h3, h4, h5, h6 {
     .logo .text-brand {
         font-size: 16px;
     }
+    #header .logo img {
+        max-height: 70px;
+    }
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
     color: var(--main-color);
     text-decoration: none;
-}
-
-#header .logo img {
-    padding: 6px 0;
-    margin: 0;
-    max-height: 70px;
 }
 
 /*--------------------------------------------------------------
@@ -255,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
     position: fixed;
     right: 15px;
-    top: 35px;
+    top: 25px;
     z-index: 9998;
     border: 0;
     background: none;
@@ -466,7 +469,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 
 section {
-    padding: 60px 0;
+    padding: 30px 0;
     overflow: hidden;
 }
 
@@ -544,7 +547,7 @@ section {
 --------------------------------------------------------------*/
 
 .features .content {
-    padding: 30px 0;
+    padding: 30px 0 0px;
 }
 
 .features .content .icon-box {
@@ -589,7 +592,7 @@ section {
 --------------------------------------------------------------*/
 
 .details .content+.content {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .details .content h3 {
@@ -1236,6 +1239,7 @@ section {
 #footer .copyright a {
     color: #fff;
 }
+
 #footer .copyright a:hover {
     color: var(--main-color);
 }
