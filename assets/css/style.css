@@ -104,12 +104,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo .text-brand {
     font-family: 'Noto-serif';
-    font-size: 10px;
+    font-size: 12px;
     margin: 0;
     padding: 2px 0;
     line-height: 1;
     font-weight: 800;
-    letter-spacing: .1px;
+    letter-spacing: -0.8px;
     font-style: italic;
 }
 
@@ -128,6 +128,8 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo h1 a, #header .logo h1 a:hover {
     color: var(--main-color);
     text-decoration: none;
+    text-align: justify;
+    letter-spacing: 2.5px;
 }
 
 /*--------------------------------------------------------------
