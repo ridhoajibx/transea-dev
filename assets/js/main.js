@@ -56,7 +56,7 @@
       if ($(initial_nav).length) {
         var scrollto = $(initial_nav).offset().top - scrolltoOffset;
         $('html, body').animate({
-          scrollTop: scrollto
+          scrollTop: scrollto,
         }, 1500, 'easeInOutExpo');
       }
     }
