@@ -11,6 +11,6 @@
         $headers = "From: ".$mailFrom;
         $txt = "You have received an email from ".$name.".\n\n".$message;
         mail($mailTo, $subject, $text, $headers);
-        header("location: contact.html?mailsend");
+        header("location: contact.php?mailsend");
     }
 ?>
