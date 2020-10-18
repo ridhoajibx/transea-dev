@@ -62,3 +62,9 @@
         font-size: 16px;
     }
 }
+
+@media(min-width:1024px){
+    .vbox-container img {
+        height: 550px;
+    }
+}
